@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #efecf5;
+}
+div {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background:#b6e7f0;
+    border-radius: 8px;
+    justify-content: center;
+    margin-top: 260px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #3D52A0;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align:left;
+    padding-top: 20px;
+    display: flex;
+}
+
+#wel {
+    color: #3E263E;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+#username,#loginBtn {
+    padding:15px;
+    border-radius: 8px;
+}
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    margin-top: 20px;;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background: #218838;
+}
+
+.party-option {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.party-name {
+    text-align: center;
+
+}
+.party-option img {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+}
+
+.party-option.selected img {
+    border-color: #28a745;
+}
+
+.party-option:hover {
+    transform: scale(1.05);
+    text-align: center;
+}
+
+.message, .error {
+    text-align: center;
+    margin-top: 20px;
+    color: #2e24be;
+}
+
+.error {
+    color: red;
+}
+
+#results {
+    text-align: center;
+}
+
+.result {
+    margin: 10px 0;
+}
